@@ -132,6 +132,21 @@ main section span{
     color:#ffffff;
     font-weight: 800;
 }
+#connect{
+    text-align: center;
+    padding: 20px 0;
+}
+#connect img{
+    max-width: 40px;
+    padding: 0 10px;
+    padding-bottom: 40px;
+}
+#connect h4{
+    font-size: 24px;
+    padding:  20px 0;
+}#connect h2{
+    font-size: 36px;
+}
 @media screen and (max-width:576px) {
     .container, .project-container{
         flex-direction: column;
@@ -157,6 +172,11 @@ main section span{
     .bg-img a{
         padding: 10px 30px;
     }
+    #connect h4{
+        font-size: 18px;
+    }#connect h2{
+        font-size: 23px;
+}
 }
 @media screen and (min-width:577px) and (max-width:992px){
     .project-container{
@@ -177,4 +197,9 @@ main section span{
     .bg-img a{
         padding: 10px 20px;
     }
+    #connect h4{
+        font-size: 20px;
+    }#connect h2{
+        font-size: 30px;
+}
 }
